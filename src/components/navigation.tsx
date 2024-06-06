@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import NavItem from "./nav-item";
 
 export default function Navigation(){
-    const [activeSection, setActiveSection] = useState('about');
+    const [activeSection, setActiveSection] = useState('');
 
 
     return(

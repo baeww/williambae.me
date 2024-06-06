@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
 import Content from "@/components/content";
+import BirdsBackground from "@/components/birds";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,12 +17,21 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en">
+      <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+      </head>
       <body>
+      <div className='position: absolute w-full h-full -z-10'>
+        <BirdsBackground></BirdsBackground>
+      </div>
       <main className="flex min-h-screen flex-col items-center py-20 px-6 lg:px-24">
         <div className="z-2 w-full max-w-5xl font-mono text-sm flex flex-col lg:flex-row justify-between">
           <Header></Header>
+          
+          {/* <div className="bg" id="vanta"></div> */}
           <div className='lg:pl-[45%]'>
             {children}
           </div>

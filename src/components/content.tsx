@@ -5,9 +5,6 @@ import React from 'react'
 import { usePathname } from 'next/navigation'
 
 const Content: React.FC = () => {
-//   const router = useRouter()
-
-
 
   return (
     <main className="flex-grow p-4 text-base">
