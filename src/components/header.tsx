@@ -12,7 +12,7 @@ export default function Header(){
                     {/* <img src='images/pfpoutline.png' width={480} height={600} className='object-fill' /> */}
                     
                 </div>
-                <h1 className='text-5xl subpixel-antialiased tracking-wide '>William Bae</h1>
+                <h1 className='text-5xl subpixel-antialiased tracking-wide text-center'>William Bae</h1>
                 <h2 className='text-surface-600 pt-2 text-base font-normal tracking-wider'>CS Major @ Virginia Tech</h2>
                 <Contacts></Contacts>
             </div>
