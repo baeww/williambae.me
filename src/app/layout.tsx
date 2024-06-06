@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <Script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></Script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" async></script>
       </head>
       <body>
       <div className='position: absolute w-full h-full -z-10'> 

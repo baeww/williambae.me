@@ -64,7 +64,7 @@ const Experience: React.FC = () => (
     <br></br>
     <p>Undergraduate Research Assistant @ <a href='https://gemlab-vt.github.io/' target = "_blank" className='underline'>Generative Modeling(GEM) Lab at VT </a></p>
     <br></br>
-    <p>Programming languages I've used:<br></br>Python, Java, C, C++, C#, JS, TS, HTML, CSS</p>
+    <p>Programming languages I&apos;ve used:<br></br>Python, Java, C, C++, C#, JS, TS, HTML, CSS</p>
   </div>
 )
 
