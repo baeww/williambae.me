@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/header";
-import { AnimatePresence } from "framer-motion";
 import BirdsBackground from "@/components/birds";
+import Script from "next/script";
 
 
 export const metadata: Metadata = {
@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+        <Script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></Script>
       </head>
       <body>
       <div className='position: absolute w-full h-full -z-10'> 

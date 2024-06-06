@@ -27,7 +27,6 @@ const About: React.FC = () => (
     <br></br>
     <br></br>
     <p>currently studying Computer Science at Virginia Tech</p>
-    {/* <br></br> */}
     <p>minor in language sciences</p>
     <br></br>
     <p>software engineer intern at Appian this summer</p>
@@ -38,7 +37,7 @@ const About: React.FC = () => (
     <br></br>
     <p>in my free time i like to play the clarinet, read, skateboard, and play ball sports </p>
     <br></br>
-    <p>website under construction :)</p>
+    <p>website under construction :D</p>
     
   </div>
 )
