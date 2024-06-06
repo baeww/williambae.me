@@ -2,6 +2,7 @@
 
 import React, { useEffect, useRef } from 'react';
 import Birds from 'vanta/dist/vanta.birds.min';
+import * as t from "three";
 
 const BirdsBackground: React.FC = () => {
     const vantaRef = useRef<HTMLDivElement>(null);
@@ -9,6 +10,8 @@ const BirdsBackground: React.FC = () => {
     useEffect(() => {
         const vantaEffect = Birds({
             el: vantaRef.current!,
+            THREE: t,
+            backgroundColor: 0x0,
             backgroundAlpha: 0,
             color1: 0xffffff,
             color2: 0xffffff,
@@ -26,7 +29,7 @@ const BirdsBackground: React.FC = () => {
             if (vantaEffect) vantaEffect.destroy();
         };
     }, []);
-
+    
     return <div ref={vantaRef} className='h-full' />;
 };
 
