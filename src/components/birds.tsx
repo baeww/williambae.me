@@ -27,7 +27,7 @@ const BirdsBackground: React.FC = () => {
         };
     }, []);
 
-    return <div ref={vantaRef} className='object-fill h-full' />;
+    return <div ref={vantaRef} className='h-full' />;
 };
 
 export default BirdsBackground;
