@@ -81,7 +81,7 @@ const Other: React.FC = () => (
     <a href='https://www.youtube.com/watch?v=EC8_zcGEZjc' target="_blank" className='underline'>clarinet idol</a><br/>
     <a href='https://www.fragrantica.com/perfume/Carolina-Herrera/Bad-Boy-Cobalt-Parfum-Electrique-71888.html' target="_blank" className='underline'>my first cologne :D</a><br/>
     <a href='https://www.youtube.com/@HarryMack' target="_blank" className='underline'>favorite freestyle rapper</a><br/>
-    <p>Courses I'm taking next semester:</p>
+    <p>Courses I&apos;m taking next semester:</p>
     <ul className="list-outside ml-4 text-sm">
       <li>CS 4104: Data and Algorithm Analysis</li>
       <li>ARBC 1105: Elementary Arabic</li>
