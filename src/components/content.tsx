@@ -49,7 +49,7 @@ const Experience: React.FC = () => (
     <br></br>
     <br></br>
     <br></br>
-    <p>Incoming Software Engineer Intern @ <a href='https://appian.com/' target = "_blank" className='underline'>Appian</a></p>
+    <p>Software Engineer Intern @ <a href='https://appian.com/' target = "_blank" className='underline'>Appian Corporation</a></p>
     <br></br>
     <p>Former Software Engineer Intern @ <a href='https://www.collinsaerospace.com/' target = "_blank" className='underline'>Collins Aerospace</a></p>
     <ul className="list-outside ml-4 text-sm">
@@ -81,6 +81,16 @@ const Other: React.FC = () => (
     <a href='https://www.youtube.com/watch?v=EC8_zcGEZjc' target="_blank" className='underline'>clarinet idol</a><br/>
     <a href='https://www.fragrantica.com/perfume/Carolina-Herrera/Bad-Boy-Cobalt-Parfum-Electrique-71888.html' target="_blank" className='underline'>my first cologne :D</a><br/>
     <a href='https://www.youtube.com/@HarryMack' target="_blank" className='underline'>favorite freestyle rapper</a><br/>
+    <p>Courses I'm taking next semester:</p>
+    <ul className="list-outside ml-4 text-sm">
+      <li>CS 4104: Data and Algorithm Analysis</li>
+      <li>ARBC 1105: Elementary Arabic</li>
+      <li>CS 3654: Introductory Data Analytics and Visualization</li>
+      <li>CS 4604: Introduction to Data Base Management Systems</li>
+      <li>ENGL 3144: Language & Ethnicity in the US</li>
+    </ul>
+    
+    
     <br></br>
     <p>more coming soon</p>
   </div>
