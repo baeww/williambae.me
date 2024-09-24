@@ -50,21 +50,28 @@ const Experience: React.FC = () => (
     <br></br>
     <br></br>
     <p>Software Engineer Intern @ <a href='https://appian.com/' target = "_blank" className='underline'>Appian Corporation</a></p>
+    <ul className="list-outside ml-4 text-sm">
+      <li>Databases & Search Team:</li>
+      <li>RDBMS Rust Auth Plugin: authorization/authentication plugin for podified Appian RDBMS. First use of Rust at Appian! </li>
+      <li>DSCS Properties: pipeline to add additional connection properties to Appian connections with external database systems</li>
+      <li>aSAILLint: accessibility linter for Appian SAIL low code development</li>
+    </ul>
     <br></br>
-    <p>Former Software Engineer Intern @ <a href='https://www.collinsaerospace.com/' target = "_blank" className='underline'>Collins Aerospace</a></p>
+    <p>Software Engineer Intern @ <a href='https://www.collinsaerospace.com/' target = "_blank" className='underline'>Collins Aerospace</a></p>
     <ul className="list-outside ml-4 text-sm">
       <li>Virtual Reality Maintenance Trainer: learn to assemble/maintain any system from the safety and convenience of your headset</li>
     </ul>
     <br></br>
     <p>Undergraduate Researcher @ <a href='https://hume.vt.edu/' target = "_blank" className='underline'>The Hume Center</a></p>
     <ul className="list-outside ml-4 text-sm">
+      <li>(2024-2025) NetGen/AgentGen : Large language models for network config files and robustness testing of reinforced learning agents</li>
       <li>(2023-2024) Covert Communications : Modification of Large Language Models to generate content with hidden messages</li>
       <li>(2022-2023) Russia-Ukraine Social Media Analytics : Transformer-based classification and identification of war-centric misinformation and its traits</li>
     </ul>
     <br></br>
     <p>Undergraduate Research Assistant @ <a href='https://gemlab-vt.github.io/' target = "_blank" className='underline'>Generative Modeling(GEM) Lab at VT </a></p>
     <br></br>
-    <p>Programming languages I&apos;ve used:<br></br>Python, Java, C, C++, C#, JS, TS, HTML, CSS</p>
+    <p>Programming languages I&apos;ve used:<br></br>Python, Java, C, C++, C#, JS, TS, HTML, CSS, Rust</p>
   </div>
 )
 
@@ -89,7 +96,6 @@ const Other: React.FC = () => (
       <li>CS 4604: Introduction to Data Base Management Systems</li>
       <li>ENGL 3144: Language & Ethnicity in the US</li>
     </ul>
-    
     
     <br></br>
     <p>more coming soon</p>
