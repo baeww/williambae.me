@@ -77,7 +77,15 @@ const Experience: React.FC = () => (
 
 const Projects: React.FC = () => (
   <div>
-    <h2>projects</h2>
+    <h2>personal projects</h2>
+    <br></br>
+    <br></br>
+    <br></br>
+    <p>Yapper - Daily Question Social Media App</p><br/>
+    <p>Echo - Real-Time AR Conversation Insights</p><br/>
+    <p>Commsly - Vibe Check Discord Bot</p><br/>
+    <p>CookCal - Freestyle Cooking Calories</p><br/>
+    <p>Unity Games</p><br/>
     <p>coming soon...</p>
   </div>
 )
