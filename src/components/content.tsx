@@ -71,7 +71,7 @@ const Experience: React.FC = () => (
     <br></br>
     <p>Undergraduate Research Assistant @ <a href='https://gemlab-vt.github.io/' target = "_blank" className='underline'>Generative Modeling(GEM) Lab at VT </a></p>
     <br></br>
-    <p>Programming languages I&apos;ve used:<br></br>Python, Java, C, C++, C#, JS, TS, HTML, CSS, Rust</p>
+    <p>Programming languages I&apos;ve used most often:<br></br>Python, Java, C, C++, C#, JS, TS, HTML, CSS, Rust</p>
   </div>
 )
 
@@ -81,6 +81,8 @@ const Projects: React.FC = () => (
     <br></br>
     <br></br>
     <br></br>
+    <p>Petals of Me - AI-Flower Garden Journal</p><br/>
+    <p>CREAtelier - Multi-Critic Agentic Fashion Design</p><br/>
     <p>Yapper - Daily Question Social Media App</p><br/>
     <p>Echo - Real-Time AR Conversation Insights</p><br/>
     <p>Commsly - Vibe Check Discord Bot</p><br/>
@@ -92,18 +94,10 @@ const Projects: React.FC = () => (
 
 const Other: React.FC = () => (
   <div>
-    <h1>other random things i found cool</h1><br/>
-    <a href='https://www.youtube.com/watch?v=EC8_zcGEZjc' target="_blank" className='underline'>clarinet idol</a><br/>
-    <a href='https://www.fragrantica.com/perfume/Carolina-Herrera/Bad-Boy-Cobalt-Parfum-Electrique-71888.html' target="_blank" className='underline'>my first cologne :D</a><br/>
-    <a href='https://www.youtube.com/@HarryMack' target="_blank" className='underline'>favorite freestyle rapper</a><br/>
-    <p>Courses I&apos;m taking next semester:</p>
-    <ul className="list-outside ml-4 text-sm">
-      <li>CS 4104: Data and Algorithm Analysis</li>
-      <li>ARBC 1105: Elementary Arabic</li>
-      <li>CS 3654: Introductory Data Analytics and Visualization</li>
-      <li>CS 4604: Introduction to Data Base Management Systems</li>
-      <li>ENGL 3144: Language & Ethnicity in the US</li>
-    </ul>
+    {/* <h1>other random things i found cool</h1><br/>
+    <a href='https://www.youtube.com/watch?v=EC8_zcGEZjc' target="_blank" className='underline'>clarinet idol</a><br/> */}
+    
+
     
     <br></br>
     <p>more coming soon</p>
