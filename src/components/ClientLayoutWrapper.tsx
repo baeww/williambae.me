@@ -10,6 +10,7 @@ export default function ClientLayoutWrapper({ children }: { children: React.Reac
   const [now, setNow] = useState(new Date());
   const [customHour, setCustomHour] = useState<number | null>(null);
   const [customMinute, setCustomMinute] = useState<number>(0);
+  const [gradientEndColor, setGradientEndColor] = useState<string>('#00005F');
 
   // This will be true if the selected (or current) time is night
   const night = customHour !== null
@@ -35,13 +36,14 @@ export default function ClientLayoutWrapper({ children }: { children: React.Reac
         setCustomHour={setCustomHour}
         customMinute={customMinute}
         setCustomMinute={setCustomMinute}
+        onGradientChange={setGradientEndColor}
       />
       <div className='position: absolute w-full h-full -z-10'>
         <BirdsBackground />
       </div>
       <main className="flex min-h-screen flex-col items-center py-20 px-6 lg:px-24">
         <div className="z-2 w-full max-w-5xl font-mono text-sm flex flex-col lg:flex-row justify-between">
-          <Header />
+          <Header borderColor={gradientEndColor} />
           <div className='lg:pl-[45%]'>
             {children}
           </div>

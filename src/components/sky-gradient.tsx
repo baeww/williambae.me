@@ -106,9 +106,10 @@ interface SkyGradientProps {
   setCustomHour: React.Dispatch<React.SetStateAction<number | null>>;
   customMinute: number;
   setCustomMinute: React.Dispatch<React.SetStateAction<number>>;
+  onGradientChange?: (endColor: string) => void;
 }
 
-const SkyGradient: React.FC<SkyGradientProps> = ({ customHour, setCustomHour, customMinute, setCustomMinute }) => {
+const SkyGradient: React.FC<SkyGradientProps> = ({ customHour, setCustomHour, customMinute, setCustomMinute, onGradientChange }) => {
   const [gradient, setGradient] = useState({ start: '', end: '' });
   const [showControls, setShowControls] = useState(false);
 
@@ -122,7 +123,12 @@ const SkyGradient: React.FC<SkyGradientProps> = ({ customHour, setCustomHour, cu
       hour = now.getHours();
       minute = now.getMinutes();
     }
-    setGradient(getInterpolatedColors(hour, minute));
+    const newGradient = getInterpolatedColors(hour, minute);
+    setGradient(newGradient);
+    // Call the callback with the end color
+    if (onGradientChange) {
+      onGradientChange(newGradient.end);
+    }
   };
 
   useEffect(() => {
