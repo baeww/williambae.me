@@ -33,7 +33,7 @@ const About: React.FC = () => (
     <br></br>
     <p>grew up in: Seoul, New Delhi, Beijing, Ilsan, Kansas City, Northern Virginia</p>
     <br></br>
-    <p>recently been interested in all things Gen AI, AR, and NLP</p>
+    <p>recently been interested in all things generative AI and creator economy</p>
     <br></br>
     <p>in my free time i like to play the clarinet, read, skateboard, and play ball sports </p>
     <br></br>
